@@ -1,0 +1,12 @@
+streamlit==1.45.1         # Compatible with pandas >=1.4.0
+pandas==1.5.3             # Works with streamlit and numpy 1.23.5
+matplotlib==3.5.1         # Compatible with pandas 1.5.3 and numpy 1.23.5
+yfinance==0.2.63          # No known conflicts
+scikit-learn==1.0.0       # Works with pandas 1.5.3 and numpy 1.23.5
+tensorflow==2.12.0        # Requires numpy <1.24
+numpy==1.23.5             # Compatible with all above
+prophet==1.1.5            # Compatible with pandas 1.4.0+
+cmdstanpy==1.2.5          # Updated from 1.0.0, still compatible
+plotly==5.20.0            # Should work with pandas 1.5.3, test if needed
+holidays==0.23.0          # Compatible with pandas <2.0
+protobuf>=3.9.2,<3.20     # To avoid TensorFlow/Prophet conflicts
